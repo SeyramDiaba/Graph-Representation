@@ -4,14 +4,14 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Create a simple graph of my research group
+# Simple graph of my research group
 G = nx.Graph()
 
-# Add nodes (people in the group)
+# Add nodes
 people = ['Stephen', 'Lydia', 'Daniel', 'Prince', 'Charles', 'Samuel', 'Princilla', 'Yeboah','Dr Ansah','Phillip','Adiboye','Raphael']
 G.add_nodes_from(people)
 
-# Add edges (who works together)
+# Add edges (people working together)
 collaborations = [
     ('Stephen', 'Phillip'),
     ('Lydia', 'Princilla'),
@@ -77,6 +77,4 @@ plt.show()
 
 print("\nGraph saved as 'network.png'")
 
-# # Export graph for Gephi
-# nx.write_gexf(G, 'research_group.gexf')
-# print("Graph exported to 'research_group.gexf' for Gephi")
+
