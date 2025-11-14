@@ -76,3 +76,7 @@ plt.savefig('network.png')
 plt.show()
 
 print("\nGraph saved as 'network.png'")
+
+# # Export graph for Gephi
+# nx.write_gexf(G, 'research_group.gexf')
+# print("Graph exported to 'research_group.gexf' for Gephi")

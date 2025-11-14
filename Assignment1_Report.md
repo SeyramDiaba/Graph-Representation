@@ -1,7 +1,7 @@
 # Assignment 1: Graph Representation of Research Group
 **Social Networks and Graph Analysis**  
 **Student:** Stephen Diaba  
-**Date:** November 11, 2025
+**Date:** November 14, 2025
 
 ---
 
@@ -139,6 +139,7 @@ For continued network health, the group might consider:
 4. This report: `Assignment1_Report.pdf`
 
 **Code Repository:** Available on GitHub at the course assignment repository
+
 ---
 
 ## References
